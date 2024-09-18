@@ -4,7 +4,7 @@
 AboRRasDesign is my personal portfolio project as a freelance specializing in **Frontend Web Development** and **Motion Graphics**. The project is built with React and is available as a live demo.
 
 ## Live Demo 🌐
-You can check out the live demo of the application here: [Live Demo][https://annabf7.github.io/]  
+You can check out the live demo of the application here: [Live Demo][https://annabf7.github.io/Aborrasdesign]  
 ## How to Run Locally 💻
 
 If you'd like to run the project locally, follow these steps:
