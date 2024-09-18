@@ -1,0 +1,175 @@
+/* Estils generals */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ececec;
+  color: #333;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400; /* Regular */
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Contenidor de pàgina */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Nav bar */
+
+.menu-container {
+  display: flex;
+  justify-content: space-between; /* Separar logotip i menú */
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f4f4f4; /* Un color més subtil per al fons */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Afegim una ombra per fer el menú més sofisticat */
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  margin-left: 40px;
+  margin-right: auto;
+  height: 66px; /* Col·loca el logotip a l'esquerra */
+}
+
+.menu-items {
+  display: flex;
+  gap: 40px; /* Augmentem l'espai entre els elements del menú */
+  font-family: "Montserrat", sans-serif; /* Canviem la font a una més moderna */
+}
+
+.iconEnglish {
+  margin-left: 20px;
+  margin-right: 0; /* La icona es manté a la dreta */
+  width: 36px;
+  height: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  padding: 10px 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px; /* Arrodonim les cantonades */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background 0.3s ease; /* Transició suau per canviar el fons en hover */
+}
+
+.dropdown-content a:hover {
+  background-color: #ececec; /* Canvi de color en hover */
+  color: #d7b46a;
+}
+
+.menu-item {
+  padding: 0px 40px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px; /* Augmentem lleugerament la mida del text */
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #d7b46a;
+}
+
+/*      FOOTER      */
+
+.footer {
+  background-color: #ececec;
+  color: #272525;
+  text-align: center;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative; /* Canvi a relative */
+  margin-top: auto; /* Fa que el footer sempre es mantingui abaix */
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar tant el text com les icones */
+}
+
+.footer-left h3 {
+  margin-bottom: 10px; /* Ajustar l'espai entre el text i les icones */
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1; /* Farem que cada secció del footer ocupi el mateix espai */
+}
+
+.footerWidth {
+  display: flex;
+  width: 80%; /* Ocupa tot l'ample del footer */
+  justify-content: space-between; /* Distribueix les columnes equitativament */
+  margin: 0 auto;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-email {
+  color: #d7b46a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  gap: 35px;
+}
+
+.social-icon {
+  width: 32px;
+  height: auto;
+}
