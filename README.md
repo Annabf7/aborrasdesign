@@ -1,4 +1,4 @@
-# AboRRasDesign 🚀
+# AborrasDesign 🚀
 
 ## Description 📄
 AboRRasDesign is my personal portfolio project as a freelance specializing in **Frontend Web Development** and **Motion Graphics**. The project is built with React and is available as a live demo.
