@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import NavigationMenu from "./components/NavigationMenu";
 import ShowreelImage from "./components/ShowreelImage";
 import AnimationProject from "./components/AnimationProject";
@@ -11,7 +11,6 @@ import AboutSection from "./components/AboutSection";
 import PhotographySection from "./components/PhotographySection";
 import WebFrontEndSection from "./components/WebFrontEndSection";
 import MotionGraphicSection from "./components/MotionGraphicSection";
-
 
 import "./App.css";
 
@@ -36,7 +35,6 @@ function App() {
         <Route path="/photography" element={<PhotographySection />} />
         <Route path="/webfrontend" element={<WebFrontEndSection />} />
         <Route path="/motiongraphic" element={<MotionGraphicSection />} />
-        
       </Routes>
       <Footer />
     </Router>
