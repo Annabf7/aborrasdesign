@@ -1,6 +1,5 @@
 import React from "react";
 import sheiImage from "../assets/shei.jpg";
-import showreelVideo from "../assets/showreel.mp4"; // Import del vídeo
 
 const ShowreelSection = () => {
   return (
@@ -14,7 +13,7 @@ const ShowreelSection = () => {
         </h1>
         <p>
           Have a look to my{" "}
-          <a href={showreelVideo} target="_blank" rel="noopener noreferrer">
+          <a href="https://youtu.be/RwoYe5Lw_s0" target="_blank" rel="noopener noreferrer">
             showreel
           </a>{" "}
           and feel free to comment!
