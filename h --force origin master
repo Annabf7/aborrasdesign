@@ -1,0 +1,53 @@
+[33mcommit 3a095bb0cc3438a2e21a7cb689762345bac61357[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Thu Sep 19 18:44:14 2024 +0200
+
+    Add compressed showreel.mp4 and update .gitignore
+
+[33mcommit c342aa40141a4293c8af1b3eb827247c684fd72b[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Thu Sep 19 18:33:11 2024 +0200
+
+    Update .gitignore, package.json, and other files
+
+[33mcommit 6fd23137d117bc73fbd8d118358f9f49e4c65393[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Wed Sep 18 13:42:34 2024 +0200
+
+    Add 404.html for route redirection
+
+[33mcommit 81e4997b04877ebd35715a07e82610fb1550de63[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Wed Sep 18 12:47:05 2024 +0200
+
+    Upload entire project except large video files
+
+[33mcommit f0ed74be8bc26a2fd22247d3eb9e9d57c58ee917[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Wed Sep 18 12:41:55 2024 +0200
+
+    Remove large video file showreel.mp4
+
+[33mcommit 00fbf07a5650d3d32e3317deefc2d7d397e79df0[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Wed Sep 18 12:40:31 2024 +0200
+
+    Upload entire project with compressed video files
+
+[33mcommit cdb000149b270fae6ec4177c501f7e5ccb82a1e9[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Wed Sep 18 12:14:31 2024 +0200
+
+    Add showreel.mp4 using Git LFS
+
+[33mcommit bc54ca50c93a35f5a2ef501cc29682096de082d7[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Wed Sep 18 12:14:18 2024 +0200
+
+    Add .mp4 files to Git LFS
+
+[33mcommit 193f163b759f11c4d5e370e70e19139d62f20958[m
+Author: Annabf7 <aborrasfont@gmail.com>
+Date:   Wed Sep 18 12:10:58 2024 +0200
+
+    Aborrasdesign
